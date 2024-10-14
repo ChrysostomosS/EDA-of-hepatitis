@@ -1,6 +1,7 @@
 # EDA-of-hepatitis-data
 
-Attribute Information: \n
+Attribute Information:
+
      1. Class: DIE, LIVE
      2. AGE: 10, 20, 30, 40, 50, 60, 70, 80
      3. SEX: male, female
