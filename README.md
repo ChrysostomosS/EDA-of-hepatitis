@@ -1,6 +1,7 @@
 # EDA-of-hepatitis-data
 
 Number of Instances: 155
+
 Number of Featues: 19
 
 Attribute Information:
