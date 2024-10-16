@@ -1,30 +1,26 @@
-# EDA-of-hepatitis-data
+# EDA-of-hepatitis-C-data
 
-Number of Instances: 155
+The data was obtained from UCI Machine Learning Repository.
+It contains laboratory values of blood donors and Hepatitis C patients.
 
-Number of Featues: 19
+Number of Instances: 615
+
+Number of Features: 13
 
 Attribute Information:
-
-     1. Class: DIE, LIVE
-     2. AGE: 10, 20, 30, 40, 50, 60, 70, 80
-     3. SEX: male, female
-     4. STEROID: no, yes
-     5. ANTIVIRALS: no, yes
-     6. FATIGUE: no, yes
-     7. MALAISE: no, yes
-     8. ANOREXIA: no, yes
-     9. LIVER BIG: no, yes
-    10. LIVER FIRM: no, yes
-    11. SPLEEN PALPABLE: no, yes
-    12. SPIDERS: no, yes
-    13. ASCITES: no, yes
-    14. VARICES: no, yes
-    15. BILIRUBIN: 0.39, 0.80, 1.20, 2.00, 3.00, 4.00
-        -- see the note below
-    16. ALK PHOSPHATE: 33, 80, 120, 160, 200, 250
-    17. SGOT: 13, 100, 200, 300, 400, 500, 
-    18. ALBUMIN: 2.1, 3.0, 3.8, 4.5, 5.0, 6.0
-    19. PROTIME: 10, 20, 30, 40, 50, 60, 70, 80, 90
-    20. HISTOLOGY: no, yes
-The BILIRUBIN attribute appears to be continuously-valued.
+     Attributes 1 to 4 refer to the data of the patient:
+          1) X (Patient ID/No.)
+          2) Category (diagnosis) (values: '0=Blood Donor', '0s=suspect Blood Donor', '1=Hepatitis', '2=Fibrosis', '3=Cirrhosis')
+          3) Age (in years)
+          4) Sex (f,m)
+      Attributes 5 to 14 refer to laboratory data:
+          5) ALB (Albumin Blood Test)
+          6) ALP (Alkaline phosphatase)
+          7) ALT (Alanine Transaminase)
+          8) AST (Aspartate Transaminase
+          9) BIL (Bilirubin)
+          10) CHE (Acetylcholinesterase)
+          11) CHOL (Cholesterol)
+          12) CREA (Creatinine)
+          13) GGT (Gamma-Glutamyl Transferase
+          14) PROT (Proteins)
